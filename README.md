@@ -11,6 +11,7 @@ In this class, below topics are covered:
 1. Basic Pandas skills for Data Analysis
 2. Time Series Analysis with Python
 3. Using and reading data from Bank of Korea, Bloomberg, Eikon data, etc.
+4. Basic international finance theories around exchange rates
 
 I tried to make each Notebook file as comprehensive as possible. 
 
