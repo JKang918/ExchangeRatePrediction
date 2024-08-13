@@ -6,18 +6,16 @@ These notbooks are from the **Financial Data Base** course held in KAIST Busines
 
 The Lecturor is Phd. Jaehoon Lee, a former professor at the University of New South Wales Business School and now working at KAIST Business School.
 
-In this class, below topics are covered:
+### Final Project
 
-1. Basic Pandas skills for Data Analysis
-2. Time Series Analysis with Python
-3. Using and reading data from Bank of Korea, Bloomberg, Eikon data, etc.
-4. Basic international finance theories around exchange rates
+In the final project, I aimed to build a model to predict the exchange rate (KRW/USD) one year ahead, based on macroeconomic data from South Korea and the United States, and to present both point estimates and interval estimates of the exchange rate one year later.
 
-The numbered files are lecture notes.
+The project is organized as below:
 
-I tried to make each Notebook file as comprehensive as possible. 
-
-Each note is mainly for my own reference but I am confident anyone struggling with pandas basics and trying to learn python time series analysis skills would benefit from it as well.
-
-
-In addition to that, I also plan to add two project files. One is predicting KRW/USD rates and the other one is predicting KRW and JPY rates. Each projects covers exchange rate theories, data importing and cleansing, visualization and forecasting with statistical models. 
+1. Presentation of fundamental theories as to exchange rate regarding selecting right variables.
+2. Brief explanation on selecting OLS regression over ARIMA or other machine learning models.
+3. Downloading data from Bank of Korea, Federal Reserve, and World Bank using custom functions.
+4. Loading the downloaded data onto Jupyter Notebook using custom functions.
+5. Data preprocessing: difference, divide, or normalize data for stationarity. Get new data from existing data.
+6. Modeling: correlation matrix, visual analytics, variable selection with AIC
+7. Interpretation of the result. 
